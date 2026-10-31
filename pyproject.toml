@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=65"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "battery-trading"
+version = "0.1.0"
+description = "Models a price-taking battery charging/discharging across two wholesale electricity markets to maximise trading profit."
+requires-python = ">=3.11"
+dependencies = [
+    "pandas>=2.0",
+    "numpy>=1.24",
+    "openpyxl>=3.1",
+]
+
+[project.optional-dependencies]
+plot = ["matplotlib>=3.7"]
+dev = ["pytest>=7.0"]
+
+[tool.setuptools]
+packages = ["battery_trading"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

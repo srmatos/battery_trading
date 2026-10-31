@@ -1,0 +1,22 @@
+=== Battery dispatch simulation summary ===
+Period: 2018-01-01 00:00:00 -> 2020-12-31 23:30:00 (3.00 years)
+
+Market 1 revenue (discharge)         : £46,397.92
+Market 1 cost (charge)               : £49,850.67
+Market 2 revenue (discharge)         : £205,961.49
+Market 2 cost (charge)               : £124,228.59
+
+Total trading revenue                : £252,359.41
+Total trading cost                   : £174,079.26
+Net trading profit                   : £78,280.15
+Fixed opex over period (info)        : £15,003.42 (capex £500,000 not included)
+
+Energy imported from grid            : 4,734.4 MWh
+Final state of charge                : 0.000 / 4.0 MWh
+Equivalent full cycles used          : 1,124.4 / 5,000 (22.5% of rated life)
+
+M1 blocked by opposite M2 commitment : 4 half-hours
+M1 capped by shared storage budget   : 2957 half-hours
+
+CSV results written to output/
+Chart written to output/simulation.png
