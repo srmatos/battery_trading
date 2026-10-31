@@ -1,5 +1,7 @@
 # battery_trading
 
+[![tests](https://github.com/srmatos/battery_trading/actions/workflows/tests.yml/badge.svg)](https://github.com/srmatos/battery_trading/actions/workflows/tests.yml)
+
 Models a price-taking battery (2 MW / 4 MWh) charging and discharging across two wholesale
 electricity markets to maximise trading profit, using the battery spec in
 `Attachment 1.xlsx` and the market prices in `Attachment 2.xlsx`.
